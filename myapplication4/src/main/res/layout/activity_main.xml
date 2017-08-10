@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="arr.myapplication.contorller.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加"
+        android:id="@+id/btu_add"
+        />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="删除"
+    android:id="@+id/btu_delete"
+    android:layout_below="@+id/btu_add"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        android:id="@+id/btu_update"
+        android:layout_below="@+id/btu_delete"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:id="@+id/btu_chaxun"
+        android:layout_below="@+id/btu_update"
+        />
+</RelativeLayout>
